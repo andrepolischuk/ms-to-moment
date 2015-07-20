@@ -1,7 +1,7 @@
 {
   "name": "ms-to-moment",
   "description": "Calculation milliseconds before and after the moment",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "ms",
     "milliseconds",
