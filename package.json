@@ -1,0 +1,28 @@
+{
+  "name": "ms-to-moment",
+  "description": "Calculation milliseconds before and after the moment",
+  "version": "0.0.0",
+  "keywords": [
+    "ms",
+    "milliseconds",
+    "before",
+    "after",
+    "moment",
+    "date",
+    "time"
+  ],
+  "repository": "andrepolischuk/ms-to-moment",
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "mocha": "^2.2.5"
+  },
+  "main": "index.es5.js",
+  "scripts": {
+    "test": "mocha --require babel/register",
+    "transpile": "babel --stage 0 index.js > index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm -rf *.es5.js"
+  },
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT"
+}
